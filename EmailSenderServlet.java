@@ -58,8 +58,8 @@ public class EmailSenderServlet extends HttpServlet {
 			System.out
 					.println("Attempting to send an email through Amazon SES by using the AWS SDK for Java...");
 			AWSCredentials credentials = new BasicAWSCredentials(
-					"AKIAI7GS2HFELHPQM64Q",
-					"JNNwQSinnC278QQOrxrnoR2nrl6Ps1jfyS2TTO+1");
+					"xxxxxxxx",
+					"yyyyyyyy");
 
 			AmazonSimpleEmailServiceClient client = new AmazonSimpleEmailServiceClient(
 					credentials);
